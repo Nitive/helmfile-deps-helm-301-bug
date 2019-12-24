@@ -1,0 +1,9 @@
+repositories:
+  - name: stable
+    url: https://kubernetes-charts.storage.googleapis.com
+
+releases:
+  - name: registry
+    namespace: registry
+    chart: stable/docker-registry
+    version: ~1.8.0
